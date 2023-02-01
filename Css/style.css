@@ -614,6 +614,9 @@ img{
         margin-left: var(--mb-5);
         margin-bottom: 0;
     }
+    .nav__toggle{
+        display: none;
+    }
    
     .home__container{
         height: 100vh;

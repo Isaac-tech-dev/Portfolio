@@ -86,4 +86,13 @@ gsap.from('.nav__logo, .nav__toggle', {opacity: 0, duration: 2, delay: 1.5, y:25
 gsap.from('.nav__item', {opacity: 0, duration: 1.8, delay: 1.5, y:25, ease: 'expo-out', stagger: .2})
 gsap.from('.home__socials-icon', {opacity: 0, duration: 1.8, delay: 2.3, y:25, ease: 'expo-out', stagger: .2})
 
+const sr = ScrollReveal ({
+	distance: '25px',
+	duration: 2500,
+	reset: true
+})
+
+sr.reveal('.home-text',{delay:190, origin:'bottom'})
+
+sr.reveal('.home,.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 

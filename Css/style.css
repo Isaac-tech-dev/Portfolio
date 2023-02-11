@@ -280,6 +280,17 @@ img{
 }
 .home__img img{
     width: 300px;
+    display: none;
+}
+.home__design{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.home__text{
+    font-size: 300px;
+    color: #fff;
+    text-shadow: 5px 5px 10px var(--first-color-light);
 }
 .home__socials{
     display: flex;
@@ -460,7 +471,7 @@ img{
     box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
 }
 .portfolio__content:hover .portfolio__img{
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 /*Active Portfolio*/
@@ -582,6 +593,12 @@ img{
     .contact__form{
         width: 450px;
         justify-self: center;
+    }
+
+    .home__text{
+        font-size: 300px;
+        color: #fff;
+        text-shadow: 5px 5px 10px var(--first-color-light);
     }
 }
 

@@ -176,9 +176,9 @@ img{
 .nav__logo, .nav__toggle{
     color: var(--first-color-lighten);
 }
-.nav__logo{
+/* .nav__logo{
     text-shadow: 5px 5px 10px var(--first-color-light);
-}
+} */
 .nav__tohgle{
     font-size: 1.3rem;
     cursor: pointer;

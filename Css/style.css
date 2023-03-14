@@ -410,6 +410,12 @@ img{
 .skills_html{
     width: 85%;
 }
+.skills_tcss{
+    width: 50%;
+}
+.skills_bcss{
+    width: 50%;
+}
 .skills_js{
     width: 65%;
 }

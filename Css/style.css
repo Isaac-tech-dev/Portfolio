@@ -359,6 +359,79 @@ img{
     border-radius: .7rem;
 }
 
+/*===== SKILLS CSS =====*/
+.skills__container{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 2.5rem;
+}
+.skills__subtitle{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-2);
+}
+
+.skills_data{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+.skills_name{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.skills_bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-color);
+}
+.skills_ui{
+    width: 80%;
+}
+.skills_ux{
+    width: 65%;
+}
+.skills_figma{
+    width: 85%;
+}
+.skills_xd{
+    width: 75%;
+}
+.skills_ps{
+    width: 75%;
+}
+.skills_c{
+    width: 85%;
+}
+.skills_html{
+    width: 85%;
+}
+.skills_js{
+    width: 65%;
+}
+.skills_xml{
+    width: 85%;
+}
+.skills_react{
+    width: 45%;
+}
+.skills_java{
+    width: 75%;
+}
+.skills_php{
+    width: 40%;
+}
+.skills_firebase{
+    width: 35%;
+}
+.skills_mysql{
+    width: 85%;
+}
+
 
 /*===== QUALIFICATIONS CSS =====*/
 .qualification__container{
@@ -500,6 +573,9 @@ img{
     -ms-border-radius: .7rem;
     -o-border-radius: .7rem;
 }
+.contact__box a{
+    color: var(--first-color-light);
+}
 .contact__icon, .contact__title{
     color: var(--first-color);
 }
@@ -604,10 +680,13 @@ img{
         color: #fff;
         text-shadow: 5px 5px 10px var(--first-color-light);
     }
+   
 }
 
 @media screen and (min-width: 768px) {
-    
+     .skills__container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media screen and (min-width: 1024px) {
